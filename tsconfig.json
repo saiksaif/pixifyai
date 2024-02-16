@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "types": ["offscreencanvas"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "noUncheckedIndexedAccess": false,
+    "baseUrl": "src",
+    "paths": {
+      "~/*": ["./*"]
+    },
+    "typeRoots": ["./types"],
+    "noErrorTruncation": true
+  },
+  "include": [
+    // "next-env.d.ts",
+    // "**/*.ts",
+    // "**/*.tsx",
+    // "**/*.cjs",
+    "**/*.mjs",
+    "src"
+  ],
+  "exclude": ["node_modules"]
+}
